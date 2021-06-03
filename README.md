@@ -1,2 +1,2 @@
 # facebook-clone-html-css
-Facebook clone practice using only HTML &amp; CSS
+This is a Facebook clone practice project using only HTML &amp; CSS
