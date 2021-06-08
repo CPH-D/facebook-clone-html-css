@@ -186,7 +186,7 @@ header{
 }
 .sidenav__item-title{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 .sidenav__item-icon{
     width: 40px;
@@ -202,7 +202,7 @@ header{
     margin-top: 5px;
     font-size: .75rem;
     display: block;
-    font-weight: 300
+    font-weight: 300;
 }
 .sidenav__item-notification-circle{
     background: var(--fb-blue);
