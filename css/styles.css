@@ -235,6 +235,7 @@ header{
 }
 .sidenav__item-icon--circle .fas, .sidenav__item-icon--circle .fab{
     color: var(--fb-black);
+    font-size: 1rem;
 }
 .sidenav__item-icon--circle-white .fas, .sidenav__item-icon--circle-white .fab{
     color: var(--fb-whitebg);
