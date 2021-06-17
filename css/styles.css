@@ -251,7 +251,7 @@ header{
     font-size: 9rem;
 }
 .sidenav__item-icon--circle-white{
-    background: var(--icon-circle-bg);
+    background: var(--fb-blue);
     border-radius: 50%;
     font-size: 1rem;
     width: 35px;
