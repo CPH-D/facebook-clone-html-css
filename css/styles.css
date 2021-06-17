@@ -281,6 +281,16 @@ header{
     margin-bottom: 15px;
 }
 
+.sidenav-right{
+    width: 25%;
+}
+.sidenav-right__line{
+    height: 3px;
+    background: var(--button-link);
+    margin-bottom: 15px;
+    display: block;
+}
+
 .feed{
     width: 50%;
     height: 200px;
