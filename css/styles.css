@@ -290,6 +290,9 @@ header{
     margin-bottom: 15px;
     display: block;
 }
+.fa-comments-alt{
+    font-size: 1rem;
+}
 
 .feed{
     width: 50%;
@@ -430,6 +433,8 @@ header{
 .post-types__item .fa-laugh-beam{
     color: var(--fb-yellow);
 }
+
+
 
 .photopost{
     padding: 0 0 20px;
