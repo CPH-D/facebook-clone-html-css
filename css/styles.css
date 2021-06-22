@@ -280,6 +280,44 @@ header{
     font-size: 1.1rem;
     margin-bottom: 15px;
 }
+.sidenav-right_pages-box{
+    display: flex;
+    justify-content: space-between;
+}
+.post-types-right__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 20px;
+    /* border: 1px solid red; */
+}
+.sidenav-right__item-title{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 50px;
+    position: absolute;
+    /* border: 1px solid black; */
+}
+.sidenav-right_friendRequest-box{
+    display: flex;
+    justify-content: space-between;
+}
+.sidenav-right__see-all-text{
+    color: var(--fb-blue);
+    font-weight: 400;
+}
+
+
+
+/* leave this commented out */
+.sidenav-right_friendRequest-subject{
+    border: 1px solid black;
+}
+/* leave this commented out */
+
+
 
 .sidenav-right{
     width: 25%;
@@ -290,10 +328,20 @@ header{
     margin-bottom: 15px;
     display: block;
 }
+.sidenav-right__contacts-div{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-video{
+    margin-right: 20px;
+}
+.fa-search{
+    margin-right: 20px;
+}
+
 .fa-comments-alt{
     font-size: 1rem;
 }
-
 .feed{
     width: 50%;
     height: 200px;
