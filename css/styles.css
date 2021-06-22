@@ -280,6 +280,10 @@ header{
     font-size: 1.1rem;
     margin-bottom: 15px;
 }
+
+.sidenav-right{
+    width: 20%;
+}
 .sidenav-right_pages-box{
     display: flex;
     justify-content: space-between;
@@ -291,6 +295,7 @@ header{
     width: 100%;
     font-size: 1.3rem;
     margin: 20px;
+    cursor: pointer;
     /* border: 1px solid red; */
 }
 .sidenav-right__item-title{
@@ -300,28 +305,26 @@ header{
     position: absolute;
     /* border: 1px solid black; */
 }
-.sidenav-right_friendRequest-box{
+.sidenav-right_friend-request-box{
     display: flex;
     justify-content: space-between;
 }
 .sidenav-right__see-all-text{
     color: var(--fb-blue);
     font-weight: 400;
+    cursor: pointer;
 }
 
 
 
 /* leave this commented out */
-.sidenav-right_friendRequest-subject{
+.sidenav-right_friend-request-subject{
     border: 1px solid black;
 }
 /* leave this commented out */
 
 
 
-.sidenav-right{
-    width: 25%;
-}
 .sidenav-right__line{
     height: 3px;
     background: var(--button-link);
@@ -334,9 +337,14 @@ header{
 }
 .fa-video{
     margin-right: 20px;
+    cursor: pointer;
 }
 .fa-search{
     margin-right: 20px;
+    cursor: pointer;
+}
+.fa-ellipsis-h{
+    cursor: pointer;
 }
 
 .fa-comments-alt{
