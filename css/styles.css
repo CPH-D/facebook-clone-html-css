@@ -292,29 +292,96 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 45%;
     font-size: 1.3rem;
     margin: 20px;
     cursor: pointer;
-    /* border: 1px solid red; */
 }
 .sidenav-right__item-title{
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: .8rem;
+    font-weight: 600;
     margin-left: 50px;
     position: absolute;
+    color: var(--light-color-text);
     /* border: 1px solid black; */
 }
-.sidenav-right_friend-request-box{
+.fa-comments{
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+}
+.fa-bell{
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+}
+.fa-bullhorn{
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+}
+.sidenav-right__friend-request-box{
     display: flex;
     justify-content: space-between;
+}
+.sidenav-right__friend-request-subject{
+    margin-bottom: 20px;
+    display: flex;
 }
 .sidenav-right__see-all-text{
     color: var(--fb-blue);
     font-weight: 400;
     cursor: pointer;
 }
-
+.sidenav-right__birthday-subject{
+    display: flex;
+}
+.sidenav-right__friend-request-subject-icon{
+    margin-right: 5px;
+}
+.sidenav-right__friend-request-subject-info-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidenav-right__friend-request-name-days-box{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.sidenav-right__mutual-friends-text{
+    margin-bottom: 10px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--light-color-text);
+}
+.sidenav-right__friend-request-days{
+    color: var(--light-color-text);
+    font-weight: 600;
+    font-size: .8rem;
+}
+.sidenav-right__button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.sidenav-right__button{
+    border-radius: 0px;
+    height: 30px;
+    width: 40%;
+    cursor: pointer;
+    font-weight: 600;
+    background: lightgray;
+    border-radius: 5px;
+    border: none;
+    transition: ease-out 0.2s;
+}
+.sidenav-right__button:hover{
+    background: var(--fb-blue);
+    color: white;
+}
+.fa-gift{
+    font-size: 1.3rem;
+    color: var(--fb-blue);
+    margin: 0px 20px 20px 0px;
+}
 
 
 /* leave this commented out */
