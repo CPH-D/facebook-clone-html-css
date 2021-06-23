@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Facebook Clone</title>
+        <title>Facebook Copy</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/font5/all.css">
@@ -19,12 +19,16 @@
                 <div class="header__logo-search">
                     <i class="fas fa-search"></i>
                     <input type="text">          
-                </div>                
+                </div>
+                <div class="header__mobile-button">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
             
             <div class="header__menu-tabs">
                 <div class="header__menu-tab header__menu-tab--active">
                     <i class="fas fa-home"></i>
+                    <!-- <i class="fas fa-video"></i> -->
                 </div>
                 <div class="header__menu-tab ">
                     <i class="fas fa-flag">
@@ -161,10 +165,11 @@
                 </div>
 
             </section>
+
             <section class="feed">
                 <div class="stories">
                     <div class="stories__video-container">
-                        <img class="stories__bg" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c587a42419075.57cc3f77e600c.png">
+                        <img class="stories__bg" src="https://randomuser.me/api/portraits/men/9.jpg">
                         <div class="stories__title">
                             <div class="stories__new-btn">
                                 <i class="fas fa-plus"></i>
@@ -223,13 +228,13 @@
 
                     <div class="post-types">
                         <div class="post-types__item">
-                            <i class="fas fa-video"></i>Live Video
+                            <i class="fas fa-video"></i><span class="post-types__title">Live Video</span>
                         </div>
                         <div class="post-types__item">
-                            <i class="fas fa-photo-video"></i>Photo Video
+                            <i class="fas fa-photo-video"></i><span class="post-types__title"></span>Photo Video</span>
                         </div>
                         <div class="post-types__item">
-                            <i class="fas fa-laugh-beam"></i>Feelings/Activity
+                            <i class="fas fa-laugh-beam"></i><span class="post-types__title"></span>Feelings/Activity</span>
                         </div>
                     </div>
                 </div>
@@ -282,6 +287,104 @@
                     </div>
                     <div class="hline"></div>
                 </div>
+            </section>
+
+            <section class="sidenav-right">
+                <span class="sidenav__heading-title">
+                    Sponsored
+                </span>
+                <div class="sidenav-right__line"></div>
+
+                <div class="sidenav-right_pages-box">
+                    <span class="sidenav__heading-title">
+                        Your Pages
+                    </span>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">Coding Group</span>
+                </div>
+
+                <div class="post-types-right__item">
+                    <div class="post-types-right__item-icon">
+                        <i class="far fa-comments"></i>
+                    </div>
+                    <span class="sidenav-right__item-title">12 Messages
+                    </span>
+                </div>
+                <div class="post-types-right__item">
+                    <div class="post-types-right__item-icon">
+                        <i class="far fa-bell"></i>
+                    </div>
+                    <span class="sidenav-right__item-title">20+ Notifications
+                    </span>
+                </div>
+                <div class="post-types-right__item">
+                    <div class="post-types-right__item-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <span class="sidenav-right__item-title">Create Promotion
+                    </span>
+                </div>
+
+                <div class="sidenav-right__line"></div>
+
+                <div class="sidenav-right__friend-request-box">
+                    <span class="sidenav__heading-title">
+                        Friend Request
+                    </span>
+                    <span class="sidenav-right__see-all-text">See All</span>
+                </div>
+                <div class="sidenav-right__friend-request-subject">                    
+                    <div class="sidenav-right__friend-request-subject-icon">
+                        <img src="https://deadline.com/wp-content/uploads/2017/01/gabriel-iglesias.jpg?w=1024" class="newpost__user-img">
+                    </div>
+                    <div class="sidenav-right__friend-request-subject-info-box">
+                        <div class="sidenav-right__friend-request-name-days-box">
+                            <span class="sidenav__item-title">Gabriel Iglesias</span>
+                            <span class="sidenav-right__friend-request-days">5d</span>
+                        </div>
+                        <span class="sidenav-right__mutual-friends-text">17 mutual friends
+                        </span>
+                        <div class="sidenav-right__button-container">
+                            <button class="sidenav-right__button">Confirm</button>
+                            <button class="sidenav-right__button">Delete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidenav-right__line"></div>
+
+                <span class="sidenav__heading-title">
+                    Birthdays
+                </span>
+                <div class="sidenav-right__birthday-subject">
+                    <i class="fas fa-gift"></i>
+                    <p>Kiano Moju's birthday is today!</p>
+                </div>
+
+                <div class="sidenav-right__line"></div>
+
+                
+                <div class="sidenav-right__contacts-div">
+                    <span class="sidenav__heading-title">
+                        Contacts
+                    </span>
+                    <span class="sidenav-right__contacts-icons">
+                        <i class="fas fa-video"></i>
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                </div>
+                <div>
+                    Test
+                    <!-- contact bubbles goes here -->
+                </div>
+
             </section>
         </section>
 

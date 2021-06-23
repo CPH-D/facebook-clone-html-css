@@ -82,6 +82,13 @@ header{
     padding-left: 35px;
     font-weight: 300px;
     border: none;
+    margin-right: 20px;
+}
+.header__mobile-button{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
 }
 .header__menu-tabs{
     display: flex;
@@ -244,7 +251,7 @@ header{
     font-size: 9rem;
 }
 .sidenav__item-icon--circle-white{
-    background: var(--icon-circle-bg);
+    background: var(--fb-blue);
     border-radius: 50%;
     font-size: 1rem;
     width: 35px;
@@ -274,6 +281,142 @@ header{
     margin-bottom: 15px;
 }
 
+.sidenav-right{
+    width: 20%;
+}
+.sidenav-right_pages-box{
+    display: flex;
+    justify-content: space-between;
+}
+.post-types-right__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+    font-size: 1.3rem;
+    margin: 20px;
+    cursor: pointer;
+}
+.sidenav-right__item-title{
+    font-size: .8rem;
+    font-weight: 600;
+    margin-left: 50px;
+    position: absolute;
+    color: var(--light-color-text);
+    /* border: 1px solid black; */
+}
+.fa-comments{
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+}
+.fa-bell{
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+}
+.fa-bullhorn{
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+}
+.sidenav-right__friend-request-box{
+    display: flex;
+    justify-content: space-between;
+}
+.sidenav-right__friend-request-subject{
+    margin-bottom: 20px;
+    display: flex;
+}
+.sidenav-right__see-all-text{
+    color: var(--fb-blue);
+    font-weight: 400;
+    cursor: pointer;
+}
+.sidenav-right__birthday-subject{
+    display: flex;
+}
+.sidenav-right__friend-request-subject-icon{
+    margin-right: 5px;
+}
+.sidenav-right__friend-request-subject-info-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidenav-right__friend-request-name-days-box{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.sidenav-right__mutual-friends-text{
+    margin-bottom: 10px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--light-color-text);
+}
+.sidenav-right__friend-request-days{
+    color: var(--light-color-text);
+    font-weight: 600;
+    font-size: .8rem;
+}
+.sidenav-right__button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.sidenav-right__button{
+    border-radius: 0px;
+    height: 30px;
+    width: 40%;
+    cursor: pointer;
+    font-weight: 600;
+    background: lightgray;
+    border-radius: 5px;
+    border: none;
+    transition: ease-out 0.2s;
+}
+.sidenav-right__button:hover{
+    background: var(--fb-blue);
+    color: white;
+}
+.fa-gift{
+    font-size: 1.3rem;
+    color: var(--fb-blue);
+    margin: 0px 20px 20px 0px;
+}
+
+
+/* leave this commented out */
+.sidenav-right_friend-request-subject{
+    border: 1px solid black;
+}
+/* leave this commented out */
+
+
+
+.sidenav-right__line{
+    height: 3px;
+    background: var(--button-link);
+    margin-bottom: 15px;
+    display: block;
+}
+.sidenav-right__contacts-div{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-video{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.fa-search{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.fa-ellipsis-h{
+    cursor: pointer;
+}
+
+.fa-comments-alt{
+    font-size: 1rem;
+}
 .feed{
     width: 50%;
     height: 200px;
@@ -413,6 +556,8 @@ header{
 .post-types__item .fa-laugh-beam{
     color: var(--fb-yellow);
 }
+
+
 
 .photopost{
     padding: 0 0 20px;
@@ -580,4 +725,63 @@ header{
     right: -5px;
     font-weight: 700;
     z-index: 3;
+}
+
+
+
+@media only screen and (max-width: 1300px){
+    .header__menu-tabs{
+        display: none;
+    }
+    .feed{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .sidenav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .header__user-img{
+        display: none;
+    }
+    .header__user-name{
+        display: none;
+    }
+    .header__logo-search .fa-search{
+        left: 13px;
+        top: 13px;
+    }
+    .header__logo-search input[type="text"]{
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+    .header__mobile-button{
+        display: flex;
+    }
+    .feed{
+        display: block;
+    }
+    .stories{
+        flex-wrap: nowrap;
+        z-index: 9;
+        padding-bottom: 20px;
+        overflow-x: scroll;
+    }
+    .stories__video-container{
+        flex: 1 0 auto;
+    }
+    .content-area--feed{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 411px){
+    .header__account{
+        display: none;
+    }
+    .post-types__title{
+        display: none;
+    }
 }
