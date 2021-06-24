@@ -565,6 +565,69 @@ header{
     box-shadow: 0px 1px 2px 0px var(--shadow-color);
     margin-bottom: 20px;
 }
+.feed__box{
+    padding: 20px;
+    background: var(--fb-whitebg);
+    max-width: 700px;
+    width: 100%;
+    flex: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px var(--shadow-color);
+    margin-bottom: 20px;
+}
+.feed__box-createpost{
+    padding: 20px 20px 0 20px;
+    background: var(--fb-whitebg);
+    max-width: 700px;
+    width: 100%;
+    flex: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px var(--shadow-color);
+    margin-bottom: 20px;
+}
+.create-room-container{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.create-room-button{
+    border: 2px solid black;
+    height: 35px;
+    width: 130px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+    border: lightgray;
+    transition: ease-out 0.2s;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-room-button .fa-video{
+    position: relative;
+    left: 7px;
+    font-size: 1rem;
+    color: purple;
+}
+.create-room-text{
+    position: relative;
+    right: 3px;
+    color: var(--fb-blue);
+}
+.create-room-img-icons{
+    display: flex;
+}
+.floating-create-room__bubble{
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 0px var(--shadow-color);
+    background: var(--button-link);
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
 .newpost{
     display: flex;
     margin-bottom: 10px;
@@ -802,6 +865,9 @@ header{
     .sidenav{
         display: none;
     }
+    .sidenav-right{
+        display: none;
+    }
 }
 @media only screen and (max-width: 768px){
     .header__user-img{
@@ -845,4 +911,5 @@ header{
     .post-types__title{
         display: none;
     }
+
 }
