@@ -343,6 +343,16 @@ header{
     margin-right: 15px;
     box-shadow: 0px 5px 10px 0px var(--shadow-color);
 }
+.sidenav-right__request-img:hover{
+    cursor: pointer;
+}
+.sidenav-right__name-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.sidenav-right__name-title:hover{
+    cursor: pointer;
+}
 .sidenav-right__friend-request-subject-info-box{
     display: flex;
     flex-direction: column;
@@ -359,6 +369,9 @@ header{
     font-size: .8rem;
     font-weight: 600;
     color: var(--light-color-text);
+}
+.sidenav-right__mutual-friends-text:hover{
+    cursor: pointer;
 }
 .sidenav-right__friend-request-days{
     color: var(--light-color-text);
@@ -720,11 +733,20 @@ header{
 .post-types__item .fa-video{
     color: var(--fb-red);
 }
+.post-types__item .fa-video:hover{
+    cursor: pointer;
+}
 .post-types__item .fa-photo-video{
     color: var(--fb-green);
 }
+.post-types__item .fa-photo-video:hover{
+    cursor: pointer;
+}
 .post-types__item .fa-laugh-beam{
     color: var(--fb-yellow);
+}
+.post-types__item .fa-laugh-beam:hover{
+    cursor: pointer;
 }
 
 
